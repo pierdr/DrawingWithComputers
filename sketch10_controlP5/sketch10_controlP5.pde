@@ -4,6 +4,9 @@ ControlP5 cp5;
 
 int sizeSquare = 100;
 boolean invert = false;
+
+
+
 void setup()
 {
   size(512,512);
@@ -19,6 +22,8 @@ void setup()
    .setRange(0,500)
    ;
    rectMode(CENTER);
+  
+
 }
 void draw()
 {
@@ -34,4 +39,5 @@ void draw()
     fill(172 , 188  ,205  );
     rect(width/2,height/2,sizeSquare,sizeSquare);
   }
+ 
 }
