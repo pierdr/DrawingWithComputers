@@ -24,8 +24,6 @@ void draw()
   PVector centerScreen = new PVector(width/2,height/2);
   PVector radiusVector = new PVector(0,100); 
   
-  
-  
   float rotationUnit = TWO_PI / numOfSegments;
   
   for(int i = 0; i< numOfSegments ; i = i+1 )

@@ -61,4 +61,5 @@ void pattern(PVector p1l1,PVector p2l1,PVector p1l2,PVector p2l2,float numLines)
   }
   line(p1l1.x,p1l1.y,p2l1.x,p2l1.y);
   line(p1l2.x,p1l2.y,p2l2.x,p2l2.y);
+  
 }
