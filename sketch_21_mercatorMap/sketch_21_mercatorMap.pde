@@ -3,8 +3,8 @@ MercatorMap merMap = new MercatorMap();
 
 void setup()
 {
-  //size(768,512);
-  fullScreen();
+  size(768,512);
+  //fullScreen();
   //52 -135  · 22 -56
   airports = loadTable("us-airports.csv", "header");
   merMap.init(768,512,-135,22,-56,52);
