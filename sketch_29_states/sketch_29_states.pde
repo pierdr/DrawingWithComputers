@@ -29,6 +29,7 @@ void draw()
     ...
   
   */
+  noStroke();
   switch(state)
   {
     case UFO_IN_USA:
